@@ -1,0 +1,425 @@
+<html>
+    <head>
+    
+        <title>Techonology - BBC News</title>
+        
+        <style type="text/css">
+        
+            #topbar{ /*İstediğimiz :)*/
+                
+                width:1000px;
+                margin:0 auto;
+                height: 40px;
+              
+            }
+        
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            
+            #logo{
+                margin-top: 5px;
+                width: 100px;
+                float: left;
+                margin-right: 8px;
+            }
+            
+            .topbar-section{ /* ÇİZGİ :) */
+                float: left;
+                border-left: 1px #CCCCCC solid;
+                height: 100%;
+            }
+            
+            #signin-image{
+                
+                width: 25px;
+                margin: 8px 15px;
+                float: left;
+            }
+            
+            #signin-text{
+                font-weight: bold;
+                font-size:90%;
+                position: relative;
+                top:11px;
+                padding-right: 50px;
+                
+            }
+            
+            #wigglyline{
+                float:left;
+                height:40px;
+            }
+            
+            #bell{
+                height: 23px;
+                position: relative;
+                left: -4px;
+                top: -1px;
+                margin: 9px 8px 0 8px;
+            }
+            
+            #bell-div{
+                float: left;
+            }
+            
+            .topbar-menu{
+                font-weight: bold;
+                font-size: 90%;
+                padding:  13px 15px 0 15px;
+                height: 27px;
+            }
+            
+            #more-arrow{
+                width: 20px;
+                margin-left: 20px;
+                position: relative;
+                top: 2.5px;
+                
+            }
+            
+            #search-box{
+                
+                background-color: #E4E4E4; 
+                border: none;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 5px;
+                margin: 7px 0 7px 7px;
+                float: left;
+                width: 185px;
+            }
+            
+            #magnifying-glass{
+                
+                height: 27px;
+                width: 20px;
+                position: relative;
+                top: 7px;
+                background-color: #E4E4E4;
+            }
+    /* TopBar Finish */    
+            
+            /* --------- */
+
+            .clear{
+                
+                clear:both;
+            }
+            
+            #menu-bar-container{
+                border-top: 1px solid #CCCCCC;
+                background-color: #BB1919;
+                width: 100%;
+                height: 70px;
+            }
+            
+            #menu-bar{
+                width: 1000px;
+                margin: 0 auto;
+            }
+            
+            h1{
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top: 10px;
+                float: left;
+                
+            }
+            
+            #local-news{
+                border: 1px #BB4545 solid;
+                position: relative;
+                top: 6px;
+                float: right;                
+                width: 250px;
+                padding: 5px 5px 0 15px;
+                margin: 5px 10px 0 0;
+                
+            }
+            
+            #local-news a{
+                
+                color: white;
+                text-decoration: none;
+                position: relative;
+                font-size: 28px;
+                top: -7px;
+            }
+            
+            #local-news a:hover{
+                text-decoration: underline;
+            }
+             
+            #local-news img{
+                height: 30px;
+                position: relative;
+                top: 0px;
+            }
+            
+            #menu-bar-2-container{
+                background-color: #A91717;
+                width: 100%;
+                
+            }
+                
+            #menu-bar-2{
+                width: 960px; /* Aslana Unutma */
+                margin: 0 auto;
+                height: 40px;
+                position: relative;
+                right: 15px;
+            }
+            
+            #menu-bar-2 a{
+                color: white;
+                text-decoration: none;
+                padding: 0 10px; /* çubuk boyları*/
+                border-right: 1px solid #BB4545;
+                font-size: 13px;
+                font-weight:bold;
+                position: relative;
+                top: 10px;
+                
+            }
+            
+            
+         
+            #menu-bar-2 a:hover{
+                text-decoration: underline;
+              /* font-weight: 100; tasarım için güzel olur*/
+            }
+                
+            .no-border{
+                border:none !important;  
+                
+            }
+            
+            #down-arrow{
+              
+                height:10px;
+                width: 15px;
+                position: relative;
+                top: 10px;
+                left: -5px;
+            }
+            
+        
+            
+            #page-container{
+                width: 1000px;
+                margin: 0 auto;
+            }
+        
+            h2{
+                font-weight: normal;
+                margin-top: 40px;
+                font-size: 20px;
+                border-bottom: 2px solid #a91717;
+                position: relative;
+                right: -180px;
+                width: 105px;
+            }
+            
+            h3 a{
+                color:black;
+                font-size:30px;
+                position: relative;
+                right: -180px;
+                text-decoration: none;
+            }
+            
+            h3 a:hover{
+                color: #1167a8;
+            }
+            
+            
+            #article-summary{
+                color:#5a5a5a;
+                position: relative;
+                right: -180px;
+                width: 220px;
+            }
+            
+            #article-summary img {
+                height: 20px;
+                position: relative;
+                top: 5px;
+            }
+            
+            #article-summary a {
+                position: relative;
+                right: -155px;
+                left: 150px;
+                top: -17px;
+                text-decoration: none;
+                color:#a91717;
+                border-left: 1px solid #CCCCCC;
+                padding-left: 10px;
+            }
+            
+            #article-summary a:hover{
+                color:#1167a8;
+                
+            }
+            
+            
+            </style>
+    </head> 
+    <body>
+    
+        <div id="topbar">
+        
+         <img id="logo" src="images/logo1.png">
+        
+            <div id="signin-div" class="topbar-section">
+                
+                <img id="signin-image" src="images/logo2.PNG">
+                
+                <span id="signin-text">Sign in</span>  
+            </div>
+            
+            <div id="bell-div">
+            
+                <img id="wigglyline" src="images/logo3.PNG">
+                
+                <img id="bell" src="images/logo4.PNG">
+                
+            </div>
+            
+            <div class="topbar-section topbar-menu">
+            
+                News 
+            
+            </div>
+            
+             <div class="topbar-section topbar-menu">
+            
+                Sport 
+            
+            </div>
+            
+             <div class="topbar-section topbar-menu">
+            
+                Weather 
+            
+            </div>
+            
+             <div class="topbar-section topbar-menu">
+            
+                iPlayer 
+            
+            </div>
+            
+             <div class="topbar-section topbar-menu">
+            
+                TV 
+            
+            </div>
+            
+             <div class="topbar-section topbar-menu">
+            
+                More 
+            
+                 <img id="more-arrow" src="images/logo5.PNG">
+            </div>
+            
+            <div class="topbar-section">
+                
+                <input id="search-box" type="text" value="Search">
+            
+                <input type="image" id="magnifying-glass" src="images/logo6.PNG">
+                
+            </div>
+            
+        </div>
+        
+        <!-- ********* -->
+        
+        
+        <div class="clear"></div>
+        
+        <div id="menu-bar-container">
+        
+        <div id="menu-bar">
+            
+            <h1>NEWS</h1>
+        
+            <div id="local-news">
+            
+                <a href="">Find Local News</a>
+                
+                <img src="images/logo7.PNG">
+                
+            </div>
+            
+            </div>
+            
+            <div class="clear"></div>
+            
+            <div id="menu-bar-2-container">
+            
+                <div id="menu-bar-2">
+                
+                <a href="">Home</a>
+                    
+                    <a href="">UK</a>
+                
+                     <a href="">World</a>
+                    
+                     <a href="">Business</a>
+                    
+                     <a href="">Politics</a>
+                    
+                     <a href="">Tech</a>
+                    
+                     <a href="">Science</a>
+                    
+                     <a href="">Health</a>
+                    
+                    <a href="">Education</a>
+                    
+                    <a href="">Entertainment & Arts</a>
+                    
+                    <a href="">Video & Audio</a>
+                    
+                    <a href="" class="no-border">More</a>
+                    
+                    <img id="down-arrow" src="images/logo8.PNG"> 
+                </div>
+            
+             </div>
+            
+        </div>
+        
+        <div class="clear"></div>
+        
+        <div id="page-container"></div>
+        
+        <div id="main-article">
+        
+            <h2>Technology</h2>
+            
+            <h3><a href="">Asda bug exposed payment details</a></h3>
+            
+            <div id="article-summary">
+            
+            <p>A flaw on supermarket Asda's website gave hackers the chance to collect customers' personal information and payment details, the BBC has learned.</p>
+                
+                <p><img src="images/logo9.PNG">19 January 2016 | <a href="">Technology</a></p>
+                
+            </div>
+        
+        
+        
+        </div>
+            
+
+        
+    </body>
+</html>
